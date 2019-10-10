@@ -1,14 +1,14 @@
-import React from 'react';
-import { Menu, Icon } from 'antd';
+import React from "react";
+import { Menu, Icon } from "antd";
 
 export default class NavBar extends React.Component {
     state = {
-        current: 'one',
-    }
+        current: "one"
+    };
 
-    handleClick = (e) => {
-        this.setState({current: e.key})
-    }
+    handleClick = e => {
+        this.setState({ current: e.key });
+    };
 
     render() {
         return (
@@ -25,10 +25,8 @@ export default class NavBar extends React.Component {
                     <Icon type="mail" />
                     Navigation three
                 </Menu.Item>
-                <Menu.Item key="four">
-                    Navigation four
-                </Menu.Item>
+                <Menu.Item key="four">Navigation four</Menu.Item>
             </Menu>
-        )
+        );
     }
 }
