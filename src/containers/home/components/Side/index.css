@@ -1,0 +1,21 @@
+.Container {
+    overflow: auto;
+    position: fixed;
+    left: 0;
+    /* display: flexbox; */
+    width: 150pt;
+}
+.link {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.colorBlock {
+    background: hotpink;
+    width: 10pt;
+    height: 10pt;
+}
+.Text {
+    color: red;
+    font-size: 10pt;
+}
